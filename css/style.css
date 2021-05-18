@@ -1,0 +1,23 @@
+
+#container {width: 400px; height: 400px; overflow: hidden; Margin:auto;}
+#photo {width: 2000px; animation: switch 8s ease-out infinite;}
+#photo > img {float: left; width: 400px; height: 400px;}
+@keyframes switch {
+        0%, 15% {margin-left: 0;}
+        25%, 40% {margin-left: -400px;}
+        50%, 60% {margin-left: -800px;}
+        70%, 80% {margin-left: -1200px;}
+        90%, 100% {margin-left: -1600px;}
+       }
+
+
+.p {text-indent:2em;
+} 
+
+.b {
+    background-color: rgb(133, 145, 101);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-left: 15px;
+}
+
